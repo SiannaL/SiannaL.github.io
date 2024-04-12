@@ -2,6 +2,10 @@
     font-family: 'handwritting';
     src:url('bridge.woff');
 }
+@font-face{
+    font-family: 'future';
+    src: url('neuropolitical\ rg.woff');
+}
 
 
 body{
@@ -9,13 +13,13 @@ body{
 }
 
 div.tab{
-    width:60%;
+    width:100%;
     margin-left: auto;
     margin-right: auto;
-    font-size: 30px;
-    color: aliceblue;
-    background-color: black;
-    font-family:sans-serif;
+    font-size: 80px;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
     text-align:center;
 }
 
@@ -32,7 +36,7 @@ div.introcol{
     margin-left: 50px;
     margin-right: 50px;
     background-color:blanchedalmond;
-    box-shadow: 10px 10px 5px rgb(152, 147, 141);
+    box-shadow: 5px 8px 10px rgb(182, 174, 164);
     padding: 20px;
 }
 div.likes{
@@ -47,6 +51,7 @@ div.main{
     flex-direction: column;
     flex-wrap: wrap;
     margin-top: -20%;
+    color: white;
     
 }
 
@@ -64,11 +69,11 @@ div.headline{
 div.headline.a{ 
     color: white;
     background-color: dodgerblue;
-    margin-left: 60%;
+    
     
 }
 div.headline.b{
-    color: black;
+    color: white;
     background-color: chartreuse;
     
 }
@@ -79,6 +84,7 @@ div.random{
 
 div.headline.x{
     font-size: 30px;
+    width: 50%;
     
 }
 div.letter{
@@ -90,7 +96,7 @@ div.letter2{
     font-size: 40px;
     margin-left: 30%;
     background-color:blanchedalmond;
-    box-shadow: 10px 10px 5px rgb(152, 147, 141);
+    box-shadow: 5px 8px 10px rgb(182, 174, 164);
     padding: 20px;
 }
 
@@ -109,6 +115,9 @@ div.post{
 
 }
 
-div.post.f{
-    color: rgb(0, 0, 0);
+div.post.a{
+    color: rgb(112, 90, 224);
+}
+div.right{
+    margin-left: auto;
 }
