@@ -1,0 +1,112 @@
+body {
+    display: block;
+}
+
+div.back{
+    
+}
+div.back.a{
+    background-image: url('sunsetop.png');
+    
+}
+
+div.back.b{
+    background-image: url('beach.png');
+}
+
+div.back.c{
+    background-image: url('sunrise.png');
+}
+
+div.back.one{
+    background-size:cover;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+
+div.back.two{
+    background-size: 25%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+
+div.back.three{
+    background-size: 50%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+img {
+    width: 100%;
+}
+
+div.back.random{
+    transition: 0s;
+}
+div.random{
+    transition: 1s;
+}
+
+
+
+
+div.contain{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+div.middle{
+    width: 30%;
+    margin-left:auto;
+    margin-right: auto;
+    
+}
+
+div.middle.a{
+    opacity: 0;
+}
+
+div.mini{
+    width: 10%;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+
+
+div.layout{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div.box{
+    width: 30%;
+    
+}
+div.small{
+    width: 20%;
+    margin-top: -50px;
+
+}
+
+div.flower{
+    margin-top: -20%;
+    width: 50%;
+    margin-left: auto;
+}
+
+div.box.a{
+    width: 30%;
+}
+
+div.box.b{
+    width: 10%;
+}
+
+div.box.c{
+    width: 40%;
+}
