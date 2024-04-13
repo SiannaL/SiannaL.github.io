@@ -39,7 +39,7 @@ div.introcol{
     box-shadow: 5px 8px 10px rgb(182, 174, 164);
     padding: 20px;
 }
-div.likes{
+div.post.like{
     width: 10%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -63,6 +63,7 @@ div.headline{
     border-radius: 20px;
     margin-top: 50px;
     padding: 30px;
+    color: white;
     background-color: dodgerblue;
     
 }
@@ -87,6 +88,8 @@ div.headline.x{
     width: 50%;
     
 }
+
+
 div.letter{
     margin-top: 20px;
 }
@@ -116,8 +119,25 @@ div.post{
 }
 
 div.post.a{
-    color: rgb(112, 90, 224);
+    color: rgb(105, 105, 105);
+    width: 10%;
 }
+
+div.post.b{
+    color: black;
+    width: 10%;
+}
+
+div.post.one{
+    font-weight: bold;
+    width: 10%;
+}
+
+div.mb{
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
 div.right{
     margin-left: auto;
 }
