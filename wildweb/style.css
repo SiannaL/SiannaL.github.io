@@ -1,22 +1,39 @@
 
 @font-face {
   font-family: 'cool';
-  src:url('AMDAL-Regular.woff2')
+  src:url(HyperScrypt-Stencil_web.woff)
 }
 body {
     background-color:010101;
     margin:20px;
-    background-image: url('greencave.PNG');
+    
     background-size: contain;
     background-repeat: no-repeat;
     
     
   }
 
+  div.icon{
+    position: fixed;
+    width: 50px;
+    bottom:10px;
+    right: 10px;
+  }
+
+  div.icon2{
+    position: fixed;
+    width: 50px;
+    top:10px;
+    right: 10px;
+  }
+
   div.cool {
     font-family: 'cool';
   }
   
+  div.map{
+  
+  }
   
   
   div.image{
@@ -33,14 +50,14 @@ body {
   
   
   div.largetext {
-    font-size:9.5vw;
+    font-size:8vw;
     line-height:8vw;
     color: rgb(255, 253, 249);
     margin-left: 10px;
   }
   
   div.mediumtext {
-    font-size: 2vw;
+    font-size: 1.5vw;
     line-height: 2vw;
     color:aliceblue;
   }
@@ -84,10 +101,14 @@ body {
   div.white {
     color:white;
   }
+
+  div.grey{
+    color: rgb(202, 202, 202);
+  }
   
   
-  div.bgblue {
-    background-color: blue;
+  div.red{
+    color: rgb(230, 53, 53);
   }
   
 
@@ -109,6 +130,7 @@ body {
     padding:10px;
 
   }
+  
   
   div.w25 {
     width: 25%;
@@ -153,29 +175,37 @@ body {
   }
 
   div.section{
-    border-top:1px solid white;
-    margin-top: 30vw;
+    border-top:1px solid rgb(65, 227, 65);
+
     margin-left: 2vw;
     margin-right: 2vw;
   }
 
   div.diary{
-    background-color:rgb(112, 132, 116);
+    background-color:rgb(45, 187, 78);
     margin-top: 5vw;
     margin-left: 3vw;
     border-radius: 8%;
+    margin-bottom: 5vh;
   }
 div.diary2 {
   display: flex;
   flex-wrap: wrap;
 }
-  div.line{
+div.line{
     border-top: 1px solid white;
     margin-top: 2vw;
     margin-bottom: 2vw;
   }
-
-  div.note{
+div.note{
     margin-bottom: 2vw;
   }
+div.center{
+  margin-left: auto;
+  margin-right: auto;
+}
 
+div.record img{
+  border: 1px;
+  border-radius: 20%;
+}
