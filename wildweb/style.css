@@ -192,6 +192,14 @@ div.line{
     margin-top: 1.5vw;
     margin-bottom: 1.5vw;
   }
+
+div.line2{
+  border-top: 2px solid rgb(250, 245, 87);
+  margin-left: auto;
+  margin-top: 5vh;
+  width: 70%;
+  
+}
 div.note{
   
   }
@@ -219,7 +227,19 @@ div.battery{
   width: 6vw;
   margin-left:auto;
   margin-right: 20px;
-  margin-top: 50px;
+  margin-top: 5vh;
+}
+
+div.section2{
+  margin-top: 15vw;
+  margin-bottom: 15vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+div.battery2{
+  width: 6vw;
+  margin-left: 20px;
+
 }
 
 div.box{
