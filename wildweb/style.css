@@ -182,21 +182,18 @@ body {
 
   div.diary{
     
-    margin-top: 5vw;
+    margin-top: 3vw;
     border-radius: 8%;
 
   }
-div.diary2 {
-  display: flex;
-  flex-wrap: wrap;
-}
+
 div.line{
     border-top: 1px solid white;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
   }
 div.note{
-    margin-bottom: 2vw;
+  
   }
 div.center{
   margin-left: auto;
@@ -204,7 +201,7 @@ div.center{
 }
 
 div.record{
-  margin-top: 8vw;
+  margin-top: 5vw;
   width: 50vw;
 }
 div.record img{
