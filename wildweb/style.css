@@ -353,3 +353,10 @@ div.smalltext.b{
 div.video{
   padding: 10px;
 }
+
+div.map.a{
+  width: 65%;
+  margin-right: auto;
+  margin-left: auto;
+
+}
