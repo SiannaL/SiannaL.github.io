@@ -30,12 +30,7 @@ body {
   div.cool {
     font-family: 'cool';
   }
-  
-  div.map{
-  
-  }
-  
-  
+
   div.image{
     position: relative;
     background-size: cover;
@@ -72,8 +67,8 @@ body {
   }
   
   div.smalltext {
-    font-size:1.3vw;
-    line-height:18px;
+    font-size:1.2vw;
+  
   }
 
   div.tinytext{
@@ -288,6 +283,8 @@ div.save{
 
 }
 
+
+
 div.sectiona{
   display: flex;
   flex-wrap: wrap;
@@ -308,4 +305,47 @@ div.right{
   margin-left: auto;
 }
 
-div.hi{}
+div.container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%       ;
+}
+
+div.res{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  vertical-align: center;
+}
+
+div.scan{
+  width: 50%;
+}
+
+div.chart{
+width: 78%;
+margin-left: auto;
+
+}
+
+div.savea{
+  writing-mode: vertical-lr;
+  border: 2px solid rgb(255, 0, 0);
+  border-radius: 40px;
+  margin-left: 10px;
+
+}
+
+div.save{
+  writing-mode: vertical-lr;
+  border: 2px solid yellow;
+  border-radius: 40px;
+  padding: 1px;
+  margin-left: 30px;
+
+}
+div.smalltext.b{
+  margin-top: 20px;
+  padding: 10px;
+  
+}
