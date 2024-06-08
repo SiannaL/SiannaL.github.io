@@ -56,10 +56,15 @@ body {
     margin-left: 10px;
   }
   
+  div.bigtext{
+    font-size: 3vw;
+    padding: 10px;
+    text-align: center;
+  }
   div.mediumtext {
     font-size: 1.5vw;
     line-height: 2vw;
-    color:aliceblue;
+   
   }
 
   div.middletext {
@@ -67,7 +72,7 @@ body {
   }
   
   div.smalltext {
-    font-size:16px;
+    font-size:1.3vw;
     line-height:18px;
   }
 
@@ -85,17 +90,10 @@ body {
   }
   
 
-  
-  div.blue {
-    color:rgb(109, 48, 253);
-  }
+
   
   div.green {
     color:rgb(71, 187, 45);
-  }
-
-  div.brown {
-    color: rgb(255, 155, 73);
   }
   
   div.white {
@@ -106,7 +104,9 @@ body {
     color: rgb(202, 202, 202);
   }
   
-  
+  div.yellow{
+    color: rgb(250, 245, 87);
+  }
   div.red{
     color: rgb(230, 53, 53);
   }
@@ -122,7 +122,13 @@ body {
   }
   div.w50 {
     width: 50%;
-    padding:5px;
+  
+   
+  }
+
+  div.w45 {
+    width: 45%;
+    padding:15px;
   }
   
   div.w33 {
@@ -131,10 +137,22 @@ body {
 
   }
   
-  
+  div.w5{
+    width: 5%;
+  }
   div.w25 {
     width: 25%;
-    padding:5px;
+  
+  }
+
+  div.text{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display:flex;
+    margin-left: 20px;
+    flex-wrap:wrap;
+    
+  
   }
   
 
@@ -165,6 +183,9 @@ body {
     margin-left:auto;
     margin-right:auto;
   }
+  div.middle{
+    text-align: center;
+  }
   
   div.main {
     margin-bottom: 100px;
@@ -183,7 +204,7 @@ body {
   div.diary{
     
     margin-top: 3vw;
-    border-radius: 8%;
+    border-radius: 20px;
 
   }
 
@@ -197,11 +218,11 @@ div.line2{
   border-top: 2px solid rgb(250, 245, 87);
   margin-left: auto;
   margin-top: 5vh;
-  width: 70%;
+  width: 80%;
   
 }
 div.note{
-  width: 20px;
+
   }
 div.center{
   margin-left: auto;
@@ -215,7 +236,7 @@ div.record{
 div.record img{
   
   border: 1px solid green;
-  border-radius: 5%;
+  border-radius: 50px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -232,7 +253,7 @@ div.battery{
 
 div.section2{
   margin-top: 15vw;
-  margin-bottom: 15vw;
+
   display: flex;
   flex-wrap: wrap;
 }
@@ -246,3 +267,28 @@ div.box{
   display: flex;
   flex-wrap: wrap;
 }
+div.save{
+  writing-mode: vertical-lr;
+  border: 2px solid yellow;
+  border-radius: 40px;
+  padding: 1px;
+  margin-left: 30px;
+
+}
+
+div.sectiona{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.lock{
+  width: 80%;
+  padding: 5px;
+  margin-left: auto;
+}
+
+div.right{
+  margin-left: auto;
+}
+
+div.hi{}
