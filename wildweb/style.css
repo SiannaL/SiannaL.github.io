@@ -147,7 +147,7 @@ body {
 
   div.text{
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     display:flex;
     margin-left: 20px;
     flex-wrap:wrap;
@@ -221,6 +221,13 @@ div.line2{
   width: 80%;
   
 }
+
+div.line3{
+  border-top: 2px solid rgb(251, 83, 83);
+  margin-top: 5vh;
+  width: 80%;
+  
+}
 div.note{
 
   }
@@ -263,6 +270,11 @@ div.battery2{
 
 }
 
+div.battery3{
+  width: 6vw;
+  margin-left: auto;
+}
+
 div.box{
   display: flex;
   flex-wrap: wrap;
@@ -277,6 +289,11 @@ div.save{
 }
 
 div.sectiona{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.section3{
   display: flex;
   flex-wrap: wrap;
 }
